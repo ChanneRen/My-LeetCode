@@ -2,7 +2,7 @@
 	problem:	Unique Binary Search Trees
 	difficulty:	medium
 	description:	Given n, how many structurally unique BST's (binary search trees) that store values 1...n?
-	tags:	Dynamic Programming
+	tags:		Dynamic Programming
 	
 	solution:	For number 1 to n to construct BST, just consider this: 
 			each number coulde be taken as root, and then the numbers could be paritioned as two groups, or called as subtrees.
