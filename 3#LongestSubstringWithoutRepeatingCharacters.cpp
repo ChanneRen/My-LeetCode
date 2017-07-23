@@ -3,10 +3,10 @@
 	problem:	Longest Substring Without Repeating Characters
 	difficulty:	medium
 	description:	Given a string, find the length of the longest substring without repeating characters. 
-	examples:		Given "abcabcbb", the answer is "abc", which the length is 3.
-				Given "bbbbb", the answer is "b", with the length of 1.
-				Given "pwwkew", the answer is "wke", with the length of 3. 
-				Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+	examples:	Given "abcabcbb", the answer is "abc", which the length is 3.
+			Given "bbbbb", the answer is "b", with the length of 1.
+			Given "pwwkew", the answer is "wke", with the length of 3. 
+			Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
   	tags:		String, Hash Table
 	
 	solution:	The key of this problem is to record the indices of prevoius characters and can visit directly to check if it has been appread.
