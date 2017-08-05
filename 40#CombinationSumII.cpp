@@ -1,5 +1,5 @@
 /*
-	problem:	Combination Sum
+	problem:	Combination Sum II
 	difficulty:	medium
 	description:	Given a set of candidate numbers (C) (without duplicates) and a target number (T),
     			find all unique combinations in C where the candidate numbers sums to T.
